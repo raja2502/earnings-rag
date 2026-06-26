@@ -63,7 +63,7 @@ earnings-rag/
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/earnings-rag.git
+git clone https://github.com/raja2502/earnings-rag.git
 cd earnings-rag
 ```
 
