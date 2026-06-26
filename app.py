@@ -22,13 +22,6 @@ st.markdown("""
     }
     .chip-transcript { background: #EEEDFE; color: #3C3489; }
     .chip-financials { background: #E1F5EE; color: #085041; }
-    .answer-box {
-        background: #F8F8F7;
-        border-radius: 10px;
-        padding: 1.2rem 1.5rem;
-        margin-top: 1rem;
-        border: 0.5px solid #E0DED8;
-    }
     .company-tag {
         background: #F1EFE8;
         border-radius: 6px;
@@ -39,6 +32,14 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
+# --- Session state init ---
+if "query" not in st.session_state:
+    st.session_state["query"] = ""
+if "run_query" not in st.session_state:
+    st.session_state["run_query"] = False
+if "last_query" not in st.session_state:
+    st.session_state["last_query"] = ""
 
 # --- Header ---
 st.title("📊 Earnings Intelligence")
@@ -82,25 +83,35 @@ with st.sidebar:
     st.markdown("### Try asking")
     example_questions = [
         "How did NVIDIA's revenue trend across quarters?",
-        "Did BlackRock's commentary on volatility match their AUM numbers?",
-        "What did JPMorgan say about interest rates vs their actual net interest income?",
-        "Which company mentioned AI the most across all earnings calls?",
-        "How did Apple's guidance compare to their actual revenue performance?",
-        "Which financial company showed the biggest gap between executive optimism and actual results?",
+        "What was BlackRock's AUM in their most recent quarter?",
+        "What did JPMorgan report as total revenue in Q1 2025?",
+        "What did Jensen Huang say about NVIDIA infrastructure ROI?",
+        "What was Apple's revenue in Q3 2025?",
+        "Did BlackRock's commentary on volatility match their actual AUM numbers?",
     ]
     for q in example_questions:
         if st.button(q, use_container_width=True):
-            st.session_state.query = q
+            st.session_state["query"] = q
+            st.session_state["run_query"] = True
+            st.rerun()
 
 # --- Main query input ---
 query = st.text_input(
     "Ask a question",
-    value=st.session_state.get("query", ""),
+    value=st.session_state["query"],
     placeholder="e.g. Did NVIDIA's commentary on data center demand match their actual revenue?",
-    key="query_input"
 )
 
-if query:
+# --- Run query if button clicked or new query typed ---
+should_run = query and (
+    st.session_state["run_query"] or
+    query != st.session_state["last_query"]
+)
+
+if should_run:
+    st.session_state["run_query"] = False
+    st.session_state["last_query"] = query
+
     with st.spinner("Analyzing transcripts and financials..."):
         result = chain.invoke({"input": query})
 
