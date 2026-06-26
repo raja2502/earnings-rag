@@ -1,0 +1,144 @@
+question,expected_answer_contains,answer,answer_hit,retrieved_tickers,retrieved_sources
+What did JPMorgan say about interest rates?,interest rates,"According to the context, JPMorgan's Chairman & Chief Executive Officer, Jamie Dimon, mentioned that ""It will not happen that way, and we have a lot of options in what we want to do to change our exposure to interest rate."" However, the context does not provide a clear statement about what JPMorgan said about interest rates. 
+
+Additionally, Jeremy Barnum, Chief Financial Officer of JPMorganChase, mentioned that ""relatively small changes in mix can make a big difference"" in loan yields and that ""all else equal, you would expect those yields to be lower, given the cuts that have come in"". This suggests that JPMorgan is considering the impact of interest rate changes on their loan yields, but the context does not provide a specific statement about interest rates from JPMorgan.",True,JPM,transcript
+What was JPMorgan's revenue?,revenue,"JPMorgan Chase (JPM) reported Revenue with the following values: 
+- JPMorgan Chase (JPM) Revenue, 2025-12-31: 280345.0
+- JPMorgan Chase (JPM) Revenue, 2024-12-31: 278906.0
+- JPMorgan Chase (JPM) Revenue, 2023-12-31: 239425.0
+- JPMorgan Chase (JPM) Revenue, 2022-12-31: 154792.0
+- JPMorgan Chase (JPM) Revenue, 2021-12-31: 127202.0
+- JPMorgan Chase (JPM) Revenue, 2020-12-31: 129911.0
+- JPMorgan Chase (JPM) Revenue, 2019-12-31: 142515.0
+- JPMorgan Chase (JPM) Revenue, 2018-12-31: 129824.0
+- JPMorgan Chase (JPM) Revenue, 2017-12-31: 114579.0.",True,JPM,"financials, transcript"
+What did BlackRock say about AUM growth?,AUM,"According to the context, BlackRock's AUM growth is driven by several factors. The company mentioned that its technology ACV growth reached a fresh high of 16%, and its global reach delivers diversification and upside to its platform. Gains in international currencies lifted AUM by over $170 billion in the quarter. 
+
+BlackRock, AUM, for the quarter was a record $12.5 trillion. The company also mentioned that it manages $4.5 trillion for clients outside the United States. Additionally, BlackRock generated total net inflows of $84 billion in the first quarter.
+
+However, the exact AUM growth rate for specific quarters is not explicitly mentioned in the context, except that BlackRock's AUM finished on a spot basis lower than average in one quarter, but the company still expanded its operating and recurring fee-related earnings margins.",True,"BLK, RITM","financials, transcript"
+What was BlackRock's operating income?,operating income,"BlackRock's (BLK) operating income for the following quarters and years were: 
+- 2025-12-31: $7045.0 million
+- 2024-12-31: $7574.0 million
+- 2023-12-31: $6275.0 million
+- 2022-12-31: $6385.0 million
+- 2021-12-31: $7450.0 million
+- 2020-12-31: $5695.0 million
+- 2019-12-31: $5551.0 million
+- 2018-12-31: $5457.0 million
+- 2017-12-31: $5254.0 million. 
+
+Additionally, BlackRock (BLK) reported an operating income of $2.6 billion for the third quarter and $9.6 billion for the full year.",True,BLK,"financials, transcript"
+What did NVIDIA say about AI demand?,AI,"According to the context, NVIDIA mentioned that demand for their AI-related products, specifically the H200 and Blackwell, is well ahead of supply, and they expect demand may exceed supply well into next year. Additionally, Jensen from NVIDIA mentioned that nearly 1,000 companies are using NVIDIA NIM and the speed of its uptake is evident in NVIDIA AI Enterprise monetization, with NVIDIA AI Enterprise full year revenue expected to increase over 2 times from last year.",True,NVDA,"financials, transcript"
+How did NVIDIA's revenue trend?,revenue,"NVIDIA's (NVDA) revenue trend shows significant growth over the years. 
+
+NVIDIA (NVDA) Revenue for the quarter ending 2022-01-31 was 26914.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2021-01-31 was 16675.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2020-01-31 was 10918.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2019-01-31 was 11716.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2018-01-31 was 9714.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2023-01-31 was 26974.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2024-01-31 was 60922.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2025-01-31 was 130497.0, 
+NVIDIA (NVDA) Revenue for the quarter ending 2026-01-31 was 215938.0.
+
+The revenue has been increasing, with some fluctuations, from 9714.0 in 2018 to 215938.0 in 2026. The growth rate accelerated in recent years, with a significant increase from 2024 to 2026.",True,"GOOGL, MSFT, NVDA","financials, transcript"
+What did Microsoft say about cloud or AI demand?,cloud,"According to the context, Microsoft's Satya Nadella stated that the company saw ""increasing demand and diffusion of our AI platform and family of Copilots"", which is fueling their investments. He also mentioned that they are building a ""planet scale cloud and an AI factory, maximizing tokens per dollar per watt while supporting the sovereignty needs of customers and countries.""
+
+Additionally, when discussing the strong start to their fiscal year, Satya Nadella mentioned that Microsoft Cloud revenue surpassed $49 billion, up 26% year-over-year, for the quarter. However, the specific quarter and year are not mentioned in the context. 
+
+It was also mentioned that Microsoft is seeing strong AI demand, but they are having trouble meeting that demand due to supply constraints.",True,"AAPL, GOOGL, MSFT, NVDA",transcript
+What was Apple's net income?,net income,"Apple's (AAPL) Net Income for the available quarters is as follows: 
+- 2025-09-30: $112,010.0 million
+- 2024-09-30: $93,736.0 million
+- 2023-09-30: $96,995.0 million
+- 2022-09-30: $99,803.0 million
+- 2021-09-30: $94,680.0 million
+- 2020-09-30: $57,411.0 million
+- 2019-09-30: $55,256.0 million
+- 2018-09-30: $59,531.0 million
+- 2017-09-30: $48,351.0 million.",True,"AAPL, GS, JPM","financials, transcript"
+Did Goldman Sachs mention market volatility?,volatility,"Yes, Goldman Sachs mentioned market volatility in the context. According to the transcript, the company stated that ""volatility increased meaningfully"" during the quarter, and also mentioned that they ""continue to monitor closely"" market volatility, along with other factors such as economic growth, policy uncertainty, and geopolitical developments.",True,GS,"financials, transcript"
+What did Rithm Capital say about mortgage rates?,mortgage,"Rithm Capital (RITM) did not directly comment on their mortgage rates in the provided context. However, Gerard Cassidy from RBC Capital Markets LLC asked a question about what the administration could do to lower the spread between mortgage rates and their corresponding Treasury yield. There is no direct answer or comment from Rithm Capital regarding their mortgage rates or the spread between mortgage rates and Treasury yields in the given context.",True,"JPM, RITM","financials, transcript"
+What was BlackRock's revenue?,revenue,"BlackRock's (BLK) revenue was: 
+- 2025-12-31: $24,216.0 
+- 2024-12-31: $20,407.0 
+- 2023-12-31: $17,859.0 
+- 2022-12-31: $17,873.0 
+- 2021-12-31: $19,374.0 
+- 2020-12-31: $16,205.0 
+- 2019-12-31: $14,539.0 
+- 2018-12-31: $14,198.0 
+- 2017-12-31: $13,600.0 
+
+Additionally, the transcript mentions the following quarterly revenues for BlackRock (BLK): 
+- Third quarter revenue of $6.5 billion 
+- Second quarter revenue of $5 billion 
+- First quarter revenue is not explicitly stated, but full year revenue of $24 billion is mentioned, and it is up 19% year-over-year.",True,BLK,"financials, transcript"
+What was JPMorgan's net income?,net income,"JPMorgan Chase (JPM) reported the following Net Income values: 
+- JPMorgan Chase (JPM) Net Income, 2025-12-31: 57048.0
+- JPMorgan Chase (JPM) Net Income, 2024-12-31: 56868.0
+- JPMorgan Chase (JPM) Net Income, 2023-12-31: 47760.0
+- JPMorgan Chase (JPM) Net Income, 2022-12-31: 35892.0
+- JPMorgan Chase (JPM) Net Income, 2021-12-31: 46503.0
+- JPMorgan Chase (JPM) Net Income, 2020-12-31: 27410.0
+- JPMorgan Chase (JPM) Net Income, 2019-12-31: 34642.0
+- JPMorgan Chase (JPM) Net Income, 2018-12-31: 30709.0
+- JPMorgan Chase (JPM) Net Income, 2017-12-31: 22567.0 
+
+Additionally, in the transcript, it is mentioned that JPMorgan Chase (JPM) had $67.8 million of GAAP net income and $0.12 per diluted share for a specific quarter, but the exact quarter is not specified.",True,"GOOGL, GS, JPM, RITM","financials, transcript"
+What did Apple say about services growth?,services,"According to the context, Apple, Services revenue, for the quarter, grew 13%. Additionally, Apple mentioned that they achieved an all-time revenue record of $26.6 billion in Services, up 12% from a year ago, with strong performance across all categories. However, the specific quarter and year are not mentioned in the context.",True,"AAPL, JPM, MSFT",transcript
+What did Google say about advertising revenue?,advertising,"Google mentioned the following about advertising revenue:
+
+* YouTube advertising revenues had a 9% growth year over year, driven by direct response.
+* Network advertising revenues were down 2% year over year.
+* Search and other revenues delivered over $63 billion in revenue for the quarter, with a 17% increase led by broad strength across all major verticals, particularly retail.
+* In Q4, YouTube ads were driven by strong growth in direct response, while brand growth was impacted by lapping the strong spend on U.S. Elections and a slight impact in other brand-related verticals.
+* For the full year 2025, YouTube's annual revenue surpassed $60 billion across ads and subscriptions.
+
+Note that the specific quarter and year for these statements are not explicitly mentioned in the context, except for Q4 and the full year 2025.",True,GOOGL,"financials, transcript"
+What did Microsoft say about capital expenditures?,capital,"According to the context, Microsoft mentioned that capital expenditures were $34.9 billion, driven by growing demand for their Cloud and AI offerings. They also stated that roughly half of their spend was on short-lived assets, primarily GPUs and CPUs, to support increasing Azure platform demand, while the remaining spend was for long-lived assets that will support monetization for the next 15 years and beyond, including $11.1 billion of finance leases that are primarily for large data center sites. Additionally, cash paid for PP&E was $19.4 billion.",True,"AAPL, GOOGL, MSFT","financials, transcript"
+What did NVIDIA say about data center demand?,data center,"According to the context, NVIDIA stated that the demand for GPUs in all data centers is ""incredible"" and they are ""racing every single day"" to meet it. Jensen Huang mentioned that applications like ChatGPT and GPT-4 are consuming every GPU that's out there. Additionally, NVIDIA's data center revenue in China grew sequentially in Q2. The company also announced plans to increase its total AI capacity by over 80% this year and roughly double its total data center footprint over the next 2 years, reflecting the demand signals they see.",True,"MSFT, NVDA","financials, transcript"
+What was Goldman Sachs EPS?,EPS,"Goldman Sachs (GS) reported Basic EPS with the following values: 
+- 2025-12-31: 51.95
+- 2024-12-31: 41.07
+- 2023-12-31: 23.05
+- 2022-12-31: 30.42
+- 2021-12-31: 60.25
+- 2020-12-31: 24.94
+- 2019-12-31: 21.18
+- 2018-12-31: 25.53
+- 2017-12-31: 9.12 
+
+Additionally, in the first quarter, Goldman Sachs (GS) reported EPS of $17.55. The year for this quarter is not specified in the context.",True,"GS, JPM","financials, transcript"
+What was Apple's EPS?,EPS,"Apple's (AAPL) Basic EPS for the available quarters are as follows: 
+- 2025-09-30: $7.49
+- 2024-09-30: $6.11
+- 2023-09-30: $6.16
+- 2022-09-30: $6.15
+- 2021-09-30: $5.67
+- 2020-09-30: $3.31
+- 2019-09-30: $2.99
+- 2018-09-30: $3.0
+- 2017-09-30: $2.32
+
+Additionally, Apple's (AAPL) EPS for the December quarter was $2.40. However, the year for this quarter is not specified in the provided context.",True,"AAPL, GS","financials, transcript"
+What did BlackRock say about private markets?,private markets,"According to the context, BlackRock mentioned the following about private markets:
+
+1. BlackRock is a leader in emerging trends like private markets to wealth, 401(k)s, tokenization, and private market data.
+2. BlackRock has investments in infrastructure and private credit and alts to wealth, which underpin their ambitions to raise $400 billion in private markets by 2030.
+3. BlackRock is seeing how sensitive public markets are to uncertainty and how quickly they can move in reaction to policy proposals, which could drive more capital flows into private markets.
+4. BlackRock invested in enriching their private markets information, investments, and data platform to serve clients more, and they are seeing the results today.
+5. Periods of market dislocation are when private credit investment opportunities are most compelling, and BlackRock's Private Financing Solutions platform benefits from a balanced and diverse client base.
+6. About 85% of Private Financing Solutions' investor base is institutional-focused, leading to greater capital durability across market cycles.
+7. BlackRock is a top five private markets and alts manager following their recent acquisitions.
+
+Overall, BlackRock seems to be optimistic about the growth potential of private markets and is positioning itself to take advantage of this trend.",True,BLK,"financials, transcript"
+What did JPMorgan say about credit quality?,credit,"According to the transcript, Jamie Dimon, Chairman & Chief Executive Officer of JPMorgan Chase, mentioned that credit spreads themselves haven't gotten much worse in general, but there are pockets where it has. He also stated that he doesn't think the current situation is systemic. 
+
+Jeremy Barnum, Chief Financial Officer of JPMorgan Chase, explained that when looking at the drivers of the provision for Wholesale credit, downgrades are exceeding upgrades by a little bit, and they made some parameter updates to assume slightly higher loss given default in the Wholesale lending portfolio, which drove a little bit of an increase in the allowance. However, he noted that this is a small margin and not a significant concern.
+
+Additionally, Jamie Dimon mentioned that in a downturn, credit card losses and middle market losses are expected to increase, and that JPMorgan Chase feels fairly comfortable with their exposures.",True,"BLK, JPM","financials, transcript"
+What did JPMorgan say about Tesla vehicle deliveries?,I do not know,"I do not know what JPMorgan said about Tesla vehicle deliveries, as this information is not available in the context. The context only mentions JPMorgan Chase & Co.'s financial results and discussions about general economic topics, but does not mention Tesla or its vehicle deliveries.",True,JPM,transcript
+What was BlackRock's cloud revenue?,I do not know,"I do not know BlackRock's cloud revenue as the provided context does not mention BlackRock's cloud revenue. It mentions Google Cloud segment revenue and NVIDIA data center revenue, but not BlackRock's cloud revenue.",True,"BLK, GOOGL, MSFT, NVDA","financials, transcript"
+What did NVIDIA say about JPMorgan's dividend?,I do not know,"NVIDIA did not say anything about JPMorgan's dividend. The context only mentions NVIDIA's own earnings call and financial data, such as Shares Outstanding, but does not mention JPMorgan's dividend. JPMorgan's dividend is mentioned in the context, but it is mentioned by JPMorgan's own representatives, such as Jamie Dimon and Jeremy Barnum, not by NVIDIA.",False,"AAPL, GS, JPM, NVDA","financials, transcript"

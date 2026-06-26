@@ -1,0 +1,24 @@
+question,expected_ticker,expected_source,expected_answer_contains
+What did JPMorgan say about interest rates?,JPM,transcript,interest rates
+What was JPMorgan's revenue?,JPM,financials,revenue
+What did BlackRock say about AUM growth?,BLK,transcript,AUM
+What was BlackRock's operating income?,BLK,financials,operating income
+What did NVIDIA say about AI demand?,NVDA,transcript,AI
+How did NVIDIA's revenue trend?,NVDA,financials,revenue
+What did Microsoft say about cloud or AI demand?,MSFT,transcript,cloud
+What was Apple's net income?,AAPL,financials,net income
+Did Goldman Sachs mention market volatility?,GS,transcript,volatility
+What did Rithm Capital say about mortgage rates?,RITM,transcript,mortgage
+What was BlackRock's revenue?,BLK,financials,revenue
+What was JPMorgan's net income?,JPM,financials,net income
+What did Apple say about services growth?,AAPL,transcript,services
+What did Google say about advertising revenue?,GOOGL,transcript,advertising
+What did Microsoft say about capital expenditures?,MSFT,transcript,capital
+What did NVIDIA say about data center demand?,NVDA,transcript,data center
+What was Goldman Sachs EPS?,GS,financials,EPS
+What was Apple's EPS?,AAPL,financials,EPS
+What did BlackRock say about private markets?,BLK,transcript,private markets
+What did JPMorgan say about credit quality?,JPM,transcript,credit
+What did JPMorgan say about Tesla vehicle deliveries?,JPM,transcript,I do not know
+What was BlackRock's cloud revenue?,BLK,financials,I do not know
+What did NVIDIA say about JPMorgan's dividend?,NVDA,transcript,I do not know

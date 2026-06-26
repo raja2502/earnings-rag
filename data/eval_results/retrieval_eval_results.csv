@@ -1,0 +1,24 @@
+question,expected_ticker,expected_source,retrieved_tickers,retrieved_sources,ticker_hit,source_hit,combined_hit
+What did JPMorgan say about interest rates?,JPM,transcript,JPM,transcript,True,True,True
+What was JPMorgan's revenue?,JPM,financials,JPM,financials,True,True,True
+What did BlackRock say about AUM growth?,BLK,transcript,BLK,transcript,True,True,True
+What was BlackRock's operating income?,BLK,financials,BLK,financials,True,True,True
+What did NVIDIA say about AI demand?,NVDA,transcript,NVDA,transcript,True,True,True
+How did NVIDIA's revenue trend?,NVDA,financials,NVDA,"financials, transcript",True,True,True
+What did Microsoft say about cloud or AI demand?,MSFT,transcript,MSFT,transcript,True,True,True
+What was Apple's net income?,AAPL,financials,AAPL,financials,True,True,True
+Did Goldman Sachs mention market volatility?,GS,transcript,GS,"financials, transcript",True,True,True
+What did Rithm Capital say about mortgage rates?,RITM,transcript,RITM,transcript,True,True,True
+What was BlackRock's revenue?,BLK,financials,BLK,financials,True,True,True
+What was JPMorgan's net income?,JPM,financials,JPM,financials,True,True,True
+What did Apple say about services growth?,AAPL,transcript,AAPL,transcript,True,True,True
+What did Google say about advertising revenue?,GOOGL,transcript,GOOGL,transcript,True,True,True
+What did Microsoft say about capital expenditures?,MSFT,transcript,MSFT,"financials, transcript",True,True,True
+What did NVIDIA say about data center demand?,NVDA,transcript,"MSFT, NVDA",transcript,True,True,True
+What was Goldman Sachs EPS?,GS,financials,GS,financials,True,True,True
+What was Apple's EPS?,AAPL,financials,AAPL,"financials, transcript",True,True,True
+What did BlackRock say about private markets?,BLK,transcript,BLK,transcript,True,True,True
+What did JPMorgan say about credit quality?,JPM,transcript,JPM,transcript,True,True,True
+What did JPMorgan say about Tesla vehicle deliveries?,JPM,transcript,JPM,transcript,True,True,True
+What was BlackRock's cloud revenue?,BLK,financials,BLK,"financials, transcript",True,True,True
+What did NVIDIA say about JPMorgan's dividend?,NVDA,transcript,"AAPL, JPM, NVDA",transcript,True,True,True

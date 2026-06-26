@@ -95,3 +95,16 @@ streamlit run app.py
 4. **Store** — embeddings are stored in a FAISS index
 5. **Retrieve** — MMR retrieval fetches the top 10 diverse chunks for each query
 6. **Generate** — Groq's Llama 3.3 70B generates a grounded answer using only the retrieved context
+
+## Evaluation Results
+
+Evaluated across 23 questions covering retrieval quality and answer accuracy.
+
+| Metric | Score |
+|--------|-------|
+| Ticker retrieval accuracy | 100% |
+| Source retrieval accuracy | 100% |
+| Combined retrieval accuracy | 100% |
+| Answer keyword accuracy | 95.65% |
+
+Evaluation framework tests retrieval precision (right company, right source type) and answer correctness using keyword matching against expected outputs including guardrail behavior for out-of-scope questions.
