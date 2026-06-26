@@ -48,15 +48,17 @@ Combined with MMR (Maximum Marginal Relevance) retrieval to ensure coverage acro
 ## Project Structure
 ```
 earnings-rag/
-├── app.py           # Streamlit UI
-├── rag.py           # RAG pipeline — embeddings, retrieval, generation
-├── ingest.py        # Data ingestion — transcripts and financials
+├── app.py                  # Streamlit UI
+├── rag.py                  # RAG pipeline — embeddings, retrieval, generation
+├── ingest.py               # Data ingestion — transcripts and financials
+├── evaluate_rag.py         # Evaluation framework — retrieval and answer accuracy
 ├── data/
-│   ├── transcripts/ # Earnings call transcripts (.txt)
-│   ├── financials/  # Financial statements (.csv)
-│   └── vectorstore/ # FAISS index (auto-generated)
+│   ├── transcripts/        # Earnings call transcripts (.txt)
+│   ├── financials/         # Financial statements (.csv)
+│   ├── vectorstore/        # FAISS index (auto-generated)
+│   └── eval_questions.csv  # Evaluation question set (23 questions)
 ├── requirements.txt
-└── .env             # API keys (not committed)
+└── .env                    # API keys (not committed)
 ```
 
 ## Local Setup
